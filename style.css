@@ -1,12 +1,58 @@
-.bg-overlay {
-    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("asw.jpeg");
+html
+{
+    scroll-behavior: smooth;
+}
+  p
+  {
+  font-family:enchanting_celebrationsRg;
+  font-size: 20px;
+  margin:0;
+  padding:0;
+  text-align:justify;
+  line-height:30px;
+  }
+.bg-overlay
+ {
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("img/ass.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     color: #fff;
     height: 450px;
-    padding-top: 50px;
-    
- 
+    padding-top: 50px; 
 }
 
+#goals
+{
+    background: #1a1a1a;
+    color:white;
+    padding: 10rem 0rem;
+}
+#int
+{
+    background:#1a1a1a;
+    color:whitesmoke;
+    padding: 10rem 0rem;
+}
+#int .container img
+{
+    padding: 3rem 0rem;
+    box-shadow: 0 0.5rem 1rem 0 rgb(255, 5, 5)
+}
+#companion
+{
+    background: #E1243B;
+    color:black;
+    padding: 5rem 0rem;
+}
+#art
+{
+    background: #E1243B;
+    color:black;
+    padding: 5rem 0rem;
+}
+#art .container img
+{
+background:linear-gradient(darkviolet,pink,black);
+padding:5px;
+}
