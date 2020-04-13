@@ -41,18 +41,18 @@ html
 }
 #companion
 {
-    background: #E1243B;
+    background: lightcoral;
     color:black;
     padding: 5rem 0rem;
 }
 #art
 {
-    background: #E1243B;
+    background: lightcoral;
     color:black;
     padding: 5rem 0rem;
 }
 #art .container img
 {
-background:linear-gradient(darkviolet,pink,black);
+background:linear-gradient(darkblue,darkgreen,black);
 padding:5px;
 }
