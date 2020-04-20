@@ -29,7 +29,7 @@
                     <a class="nav-link" href="#companion">Companions<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Favorites</a>
+                    <a class="nav-link" href="#favorite">Favorites</a>
                 </li>
             </ul>
         </div>
@@ -70,7 +70,7 @@
     <div class="col-md-12">
       <div class= "panel panel-default">
           <div class="panel-body">
-    <img src=img/sprintt.jpg alt="img-responsive"  class="img-fluid"> 
+    <img src=img/sprintt.jpeg alt="img-responsive"  class="img-fluid"> 
     <img src=img/shutt.jpg  alt="img-responsive"  class="img-fluid"> 
     <img src=img/kabb.jpeg alt="img-responsive"   class="img-fluid">
   </div>
@@ -121,8 +121,59 @@
  </div>
   </div>
 </section>
-
-<footer>
+<section id="favorite">
+  <h2>FAVORITE</h2></br></br>
+  <div id="carouselId" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselId" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselId" data-slide-to="1"></li>
+      <li data-target="#carouselId" data-slide-to="2"></li>
+      <li data-target="#carouselId" data-slide-to="3"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <div class="carousel-item active">
+        <h6>VLOGGER</h6>
+        <p>Madhan Gowri</p>
+        <img src="img/mg.jpeg" alt="First slide" class="img-fluid">
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+      <div class="carousel-item">
+        <h6>ONE-HIT-WONDER</h6>
+          <p>Senorita</p>
+        <img src="img/won.jpeg" alt="Second slide" class="img-fluid">
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+      <div class="carousel-item">
+        <h6>MUSICIAN</h6>
+        <p>Shawn Mendes</p>
+        <img src="img/shaw.jpeg" alt="Third slide" class="img-fluid">
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+      <div class="carousel-item">
+        <h6>FOOD</h6>
+        <p>Briyani</p>
+        <img src="img/brii.jpeg" alt="Third slide" class="img-fluid">
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselId" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselId" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</br>
+</br>
+</br>
+</section>
+  <footer>
       <div id="footer-area">
          <div class="container">
            <div class="row">
@@ -130,7 +181,8 @@
                  <div class="single-footer">
                   <ul class="link-area widget list-inline">
                   
-                      <a href="#"> <img src="img/footer.png" alt="" class=img-fluid></a>
+                    <li><img src="img/footer.png" alt="" class=img-fluid></li>
+                      <li><a href="#"> <img src="img/up.png" alt="" class=img-fluid style= "width:40px; height:40px; margin-top:auto;margin-left:auto;display:block"></a></li>
                
                   </ul>
                  </div>
@@ -142,7 +194,7 @@
                    <li><a href="#goals"> <i class="fa fa-long-arrow-right" aria-hidden="true">About me</i></a></li>
                    <li><a href="#int"> <i class="fa fa-long-arrow-right" aria-hidden="true">Interest</i></a></li>
                    <li><a href="#companion"> <i class="fa fa-long-arrow-right" aria-hidden="true">Companions</i></a></li>
-                   <li><a href="#favorites"> <i class="fa fa-long-arrow-right" aria-hidden="true">favorites</i></a></li>
+                   <li><a href="#favorite"> <i class="fa fa-long-arrow-right" aria-hidden="true">favorite</i></a></li>
                   </ul> 
               </div>
             </div>
@@ -150,8 +202,8 @@
               <div class="single-footer">
                 <h3>Contact</h3>
                 <ul class="link-area">
-                   <li><a href="#"> <i class="fa fa-long-arrow-right" aria-hidden="true">65676767</i></a></li>
-                   <li><a href="#"> <i class="fa fa-long-arrow-right" aria-hidden="true">aswini309@gmail.com</i></a></li>
+                   <li><img src="img/calll.png" alt="" class=img-fluid style= "width:20px; height:20px"><i class="fa fa-long-arrow-right" aria-hidden="true">9656767678</i></li>
+                   <li><img src="img/postal.png" alt="" class=img-fluid style= "width:20px; height:20px"><i class="fa fa-long-arrow-right" aria-hidden="true">aswini309@gmail.com</i></li>
                 </ul>
                 <ul class="footer-social list-inline">
                   <li><a href="https://instagram.com/_aswini_nive_?igshid=qb2ggi88e3tb"><i class="fa fa-facebook" aria-hidden="true"></i><img src="img/insta.jpeg" alt="" ></a></li>
@@ -175,6 +227,7 @@
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>

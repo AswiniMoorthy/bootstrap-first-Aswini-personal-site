@@ -3,7 +3,7 @@ html
     scroll-behavior: smooth;
 }
 
-  p
+p
   {
   font-family:Lucida Sans ;
   font-size: 18px;
@@ -20,9 +20,9 @@ html
     background-position: center center;
     color: #fff;
     height: 450px;
-    padding-top: 50px; 
+    padding-top: 110px; 
 }
-#overlay
+#overlay 
 {
     background: #1a1a1a;
     
@@ -45,10 +45,12 @@ html
     padding: 3rem 0rem;
     box-shadow: 0 0.5rem 1rem 0 rgb(255, 5, 5)
 }
- .img-fluid
+ 
+ 
+#int .img-fluid
 {
-width:285px;
-height:400px;
+width:350px;
+height:260px;
 }
 #companion
 {
@@ -104,29 +106,44 @@ h2{
 #art .container-fluid .img-responsive:hover img{
     opacity:1;
 }
+#favorite
+{
+    background: #1a1a1a;
+    
+}
+.carousel-inner
+{
+    width:50%;
+    height:500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.carousel-item h6,p
+{
+    font-family: apple-system;
+    text-align: center;
+    color:whitesmoke;
+}
 @media screen and (max-width: 767px)
 {
     #art .container-fluid .img-responsive
     {
         width:200px;
         height:300px;
+        margin-left:auto;
+        margin-right:auto;
+        display:block;
     }
 }
-     @media screen and (max-width: 767px) 
-     {
-        #art .container-fluid .img-responsive img
-        {
-
-          width:auto ;
-          height:auto;
-      }  
-    }
+    
     @media screen and (max-width: 767px)
     {
-    .img-fluid
+   #int .img-fluid
     {
-    width:200px;
-    height:300px;
+        max-width:auto;
+        height:250px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -139,6 +156,25 @@ h2{
           height:150px;
       }  
     }
+
+    @media screen and (max-width: 767px) 
+     {
+        #overlay .container
+        {    
+            padding-top: 110px;
+      }  
+    }
+    @media screen and (max-width: 767px) 
+    {
+       #favorite .img-fluid
+       {    
+        max-width:auto;
+        height:300px;
+        margin-left: auto;
+        margin-right: auto;
+     }  
+   }
+
 #footer-area
 {
     padding: 90px 0 60px 0;
